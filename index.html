@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Polyvalent Service & Soan_Shop</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+  <!-- HEADER -->
+  <header>
+    <div class="logos">
+      <img src="Logos/logo1.png" alt="Logo Polyvalent Service">
+      <img src="Logos/logo2-removebg-preview.png" alt="Logo Soan_Shop">
+    </div>
+
+    <!-- Texte introductif sous les logos -->
+    <div class="intro-header">
+      <h3>Polyvalent Service & Soan_Shop</h3>
+    </div>
+
+    <div class="header-right">
+      <!-- Menu réseaux sociaux burger -->
+      <div class="burger-social" onclick="toggleSocial()">
+        <i class="fas fa-ellipsis-h"></i>
+      </div>
+
+      <!-- Panier -->
+      <div class="panier-icone" onclick="togglePanier()">
+        <i class="fas fa-shopping-cart"></i>
+        <span id="compteur-panier">0</span>
+      </div>
+    </div>
+  </header>
+
+  <!-- MENU CACHÉ RÉSEAUX SOCIAUX -->
+  <div id="menu-social">
+    <a href="https://wa.me/221774903440" target="_blank"><i class="fab fa-whatsapp"></i></a>
+    <a href="https://snapchat.com" target="_blank"><i class="fab fa-snapchat"></i></a>
+    <a href="https://tiktok.com" target="_blank"><i class="fab fa-tiktok"></i></a>
+    <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+  </div>
+
+  <!-- PANIER -->
+  <div id="panier">
+    <h3>Mon Panier</h3>
+    <ul id="liste-panier"></ul>
+    <div class="panier-total">Total : 0 F</div>
+    <button class="commander" onclick="commanderPanier()">Commander sur WhatsApp</button>
+  </div>
+
+  <!-- ARRIÈRE PLAN LOGOS FILIGRANE -->
+  <div class="background-logos">
+    <img src="Logos/logo1.png" class="active bg-logo" id="bg1" alt="Logo 1">
+    <img src="Logos/logo2-removebg-preview.png" class="bg-logo" id="bg2" alt="Logo 2">
+  </div>
+
+  <!-- MAIN -->
+  <main>
+    <!-- Texte introductif avant les produits -->
+    <section class="intro-produits">
+      <p>Découvrez notre sélection exclusive de produits tendance pour hommes et femmes. Qualité, confort et style réunis pour vous !</p>
+    </section>
+
+    <!-- Barre navigation catégories et recherche -->
+    <div id="menu-categories" class="menu-categories">
+      <select id="categorie-select">
+        <option value="all" selected>Toutes les catégories</option>
+      </select>
+
+      <input type="text" id="search-bar" placeholder="Rechercher un produit...">
+    </div>
+
+    <!-- Conteneur produits généré depuis JSON via JS -->
+    <div id="produits-container"></div>
+  </main>
+
+  <!-- MUSIQUE -->
+  <audio id="musique" autoplay loop>
+    <source src="audio/audio site officiel.mp3" type="audio/mpeg">
+  </audio>
+
+  <!-- NOTIFICATION -->
+  <div id="notification-container"></div>
+
+  <!-- TEMPLATE PRODUIT -->
+  <template id="template-produit">
+    <div class="produit">
+      <div class="carousel">
+        <span class="prev">&#10094;</span>
+        <span class="next">&#10095;</span>
+      </div>
+      <h3></h3>
+      <div class="prix"></div>
+      <div class="description"></div>
+      <div class="etiquette-promo"></div>
+      <div class="etiquette-nouveau"></div>
+      <button>Ajouter au panier</button>
+    </div>
+  </template>
+
+  <script src="produits.js" defer></script>
+</body>
+</html>

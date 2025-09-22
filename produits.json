@@ -1,0 +1,167 @@
+[
+  {
+    "nom": "Blousons",
+    "categorie": ["Blousons","Sport"],
+    "prix": 30000,
+    "images": ["images_produits/blousons/Blousons 1.jpg", "images_produits/blousons/blousons 2.jpg", "images_produits/blousons/Blousons 3.jpg","images_produits/blousons/Blousons 4.jpg","images_produits/blousons/Blousons 5.jpg","images_produits/blousons/Blousons 6.jpg","images_produits/blousons/Blousons 7.jpg","images_produits/blousons/Blousons 8.jpg","images_produits/blousons/Blousons 9.jpg","images_produits/blousons/Blousons 10.jpg","images_produits/blousons/Blousons 11.jpg","images_produits/blousons/Blousons 12.jpg","images_produits/blousons/Blousons 13.jpg"],
+    "description": "Des Blousons en Qualitès, très professionnelle adaptable pour faire du sport",
+    "disponible": true,
+    "promotion": "Promo 20%",
+    "nouveau": true,
+    "popularite": 80
+  },
+  {
+    "nom": "Débardeur",
+    "categorie": ["Sport"],
+    "prix": 5000,
+    "images": ["images_produits/Sport/Debadeur 1.jpg","images_produits/Sport/Debadeur2.jpg","images_produits/Sport/Debadeur3.jpg","images_produits/Sport/Debadeur4.jpg","images_produits/Sport/Débadeur5.jpg","images_produits/Sport/Debadeur 6.jpg","images_produits/Sport/Debadeur 7.jpg"],
+    "description": "Des Blousons en Qualitès, très professionnelle adaptable pour faire du sport",
+    "disponible": true,
+    "promotion": "Promo 20%",
+    "nouveau": true,
+    "popularite": 80
+  },
+  {
+    "nom": "Ensemble Short",
+    "categorie": ["Vêtements","Vêtements hommes","Vêtements femmes"],
+    "prix": 15000,
+    "images": ["images_produits/ensemble short/ensemble short 1.jpg","images_produits/ensemble short/ensemble short 2.jpg","images_produits/ensemble short/ensemble short 3.jpg","images_produits/ensemble short/ensemble short 4.jpg","images_produits/ensemble short/ensemble short 5.jpg","images_produits/ensemble short/ensemble short 6.jpg","images_produits/ensemble short/ensemble short 7.jpg","images_produits/ensemble short/ensemble short 8.jpg","images_produits/ensemble short/ensemble short 9.jpg","images_produits/ensemble short/ensemble short 10.jpg","images_produits/ensemble short/ensemble short 11.jpg","images_produits/ensemble short/ensemble short 12.jpg","images_produits/ensemble short/ensemble short 13.jpg","images_produits/ensemble short/ensemble short 14.jpg","images_produits/ensemble short/ensemble short 15.jpg"],
+    "description": "Débardeur sport confortable pour toutes tailles.",
+    "disponible": true,
+    "promotion": "Promo 25%",
+    "nouveau": true,
+    "popularite": 95
+  },
+  {
+    "nom": "Ensemble Short",
+    "categorie": ["Vêtements","Vêtements hommes"],
+    "prix": 12000,
+    "images": ["images_produits/Short2/1.jpg","images_produits/Short2/2.jpg","images_produits/Short2/3.jpg","images_produits/Short2/4.jpg"],
+    "description": "Débardeur sport confortable pour toutes tailles.",
+    "disponible": true,
+    "promotion": "Promo 25%",
+    "nouveau": true,
+    "popularite": 95
+  },
+  {
+    "nom": "Sacs Channel",
+    "categorie": ["sacs"],
+    "prix": 18000,
+    "images": ["images_produits/Sacs/Chanel/1.jpg","images_produits/Sacs/Chanel/2.jpg","images_produits/Sacs/Chanel/3.jpg","images_produits/Sacs/Chanel/4.jpg","images_produits/Sacs/Chanel/5.jpg","images_produits/Sacs/Chanel/6.jpg","images_produits/Sacs/Chanel/7.jpg","images_produits/Sacs/Chanel/8.jpg"],
+    "description": "Débardeur sport confortable pour toutes tailles.",
+    "disponible": true,
+    "promotion": "Promo 25%",
+    "nouveau": true,
+    "popularite": 95
+  },
+  {
+    "nom": "Blousons Senegal",
+    "categorie": ["Blousons","Sport"],
+    "prix": 25000,
+    "images": ["images_produits/blousons/Senegal/1.jpg","images_produits/blousons/Senegal/2.jpg"],
+    "description": "Blousons Senegal taille S,L,X,XL,XXL",
+    "disponible": true,
+    "promotion": "Promo 25%",
+    "nouveau": true,
+    "popularite": 95
+  },
+  {
+    "nom": "Christian DIOR ",
+    "categorie": ["sacs"],
+    "prix": 14000,
+    "images": ["images_produits/Sacs/Christian DIOR/2.jpg","images_produits/Sacs/Christian DIOR/3.jpg","images_produits/Sacs/Christian DIOR/5.jpg"],
+    "description": "Sacs Christian DIOR de qualités exceptionnelles ",
+    "disponible": true,
+    "promotion": "Promo 25%",
+    "nouveau": true,
+    "popularite": 95
+  },
+  {
+    "nom": "Sacoche chanel",
+    "categorie": ["sacs"],
+    "prix": 18000,
+    "images": ["images_produits/Sacs/sacoche chanel/1.jpg","images_produits/Sacs/sacoche chanel/2.jpg","images_produits/Sacs/sacoche chanel/3.jpg","images_produits/Sacs/sacoche chanel/4.jpg"],
+    "description": "Sacoche Chanel de très jolie et très bonne qualités.",
+    "disponible": true,
+    "promotion": "Promo 25%",
+    "nouveau": true,
+    "popularite": 95
+  },
+  {
+    "nom": "Sacs Luiton",
+    "categorie": ["sacs"],
+    "prix": 18000,
+    "images": ["images_produits/Sacs/Sacs LV/1.jpg","images_produits/Sacs/Sacs LV/2.jpg"],
+    "description": "Sacs Luis Vuitton de très jolie et très bonne qualités.",
+    "disponible": true,
+    "promotion": "Promo 25%",
+    "nouveau": true,
+    "popularite": 95
+  },
+  {
+    "nom": "Sacs Balenciaga",
+    "categorie": ["sacs"],
+    "prix": 18000,
+    "images": ["images_produits/Sacs/Balenciaga/1.jpg","images_produits/Sacs/Balenciaga/2.jpg","images_produits/Sacs/Balenciaga/3.jpg","images_produits/Sacs/Balenciaga/4.jpg"],
+    "description": "Sacs Balenciaga de très jolie et très bonne qualités.",
+    "disponible": true,
+    "promotion": "Promo 25%",
+    "nouveau": true,
+    "popularite": 95
+  },
+  {
+    "nom": "Sacs Luis Vuitton",
+    "categorie": ["sacs"],
+    "prix": 22000,
+    "images": ["images_produits/Sacs/Sacs LV/LV2/1.jpg","images_produits/Sacs/Sacs LV/LV2/2.jpg","images_produits/Sacs/Sacs LV/LV2/3.jpg","images_produits/Sacs/Sacs LV/LV2/4.jpg","images_produits/Sacs/Sacs LV/LV2/5.jpg"],
+    "description": "Sacs Luis Vuitton de très jolie et très bonne qualités.",
+    "disponible": true,
+    "promotion": "Promo 25%",
+    "nouveau": true,
+    "popularite": 95
+  },
+  {
+    "nom": "Sacs tory burch",
+    "categorie": ["sacs"],
+    "prix": 18000,
+    "images": ["images_produits/Sacs/tory burch/1.jpg","images_produits/Sacs/tory burch/2.jpg","images_produits/Sacs/tory burch/2.jpg","images_produits/Sacs/tory burch/4.jpg","images_produits/Sacs/tory burch/5.jpg"],
+    "description": "Sacs tory burch de très jolie et très bonne qualités.",
+    "disponible": true,
+    "promotion": "Promo 25%",
+    "nouveau": true,
+    "popularite": 95
+  },
+  {
+    "nom": "Sandale Hermé",
+    "categorie": ["Sandales"],
+    "prix": 15000,
+    "images": ["images_produits/Sandales/71.jpg","images_produits/Sandales/1.jpg","images_produits/Sandales/2.jpg","images_produits/Sandales/3.jpg","images_produits/Sandales/4.jpg","images_produits/Sandales/5.jpg","images_produits/Sandales/61.jpg"],
+    "description": "sandales hermé de qualités ultra avec toutes les couleurs disponibles",
+    "disponible": true,
+    "promotion": "Promo 25%",
+    "nouveau": true,
+    "popularite": 95
+  },
+  {
+    "nom": "Jador ",
+    "categorie": ["sacs"],
+    "prix": 16000,
+    "images": ["images_produits/Jadior/1.jpg","images_produits/Jadior/2.jpg","images_produits/Jadior/3.jpg","images_produits/Jadior/4.jpg","images_produits/Jadior/5.jpg"],
+    "description": "Sac Jador stylés et chic disponible en Noir",
+    "disponible": true,
+    "promotion": "Promo 25%",
+    "nouveau": true,
+    "popularite": 95
+  },
+  {
+    "nom": "Sacs Luiton",
+    "categorie": ["sacs"],
+    "prix": 25000,
+    "images": ["images_produits/Sacs/Sacs LV/LV1/1.jpg","images_produits/Sacs/Sacs LV/LV1/2.jpg"],
+    "description": "Sacs Luis Vuitton de très jolie et très bonne qualités.",
+    "disponible": true,
+    "promotion": "Promo 25%",
+    "nouveau": true,
+    "popularite": 95
+  }
+]
